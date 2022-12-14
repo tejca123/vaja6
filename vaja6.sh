@@ -13,10 +13,10 @@ done
 
 readarray -t a <users.txt
 
-for i in "${1..5}"
+for i in ${1..5}
 do
-sudo adduser "$i"
-sudo usermod -aG sudo "$i"
+sudo adduser $i
+sudo usermod -aG sudo $i
 done
 
 
