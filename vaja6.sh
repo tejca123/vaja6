@@ -22,3 +22,8 @@ done
 
 sudo apt-get update -y
 sudo apt-get install -y net-tools
+
+curl -fsSL https://get.docker.com/ -o get-docker.sh
+sh get-docker.sh
+sh install.sh
+make shellcheck
