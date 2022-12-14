@@ -13,7 +13,7 @@ done
 
 readarray -t a <users.txt
 
-for i in "${a[@]}"
+for i in "${1..5}"
 do
 sudo adduser "$i"
 sudo usermod -aG sudo "$i"
