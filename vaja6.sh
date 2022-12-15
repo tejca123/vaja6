@@ -15,12 +15,15 @@ sudo apt-get update
 sudo apt-get install ufw
 sudo ufw enable
 systemctl status ufw
+
 sudo apt-get update
 sudo apt-get install git
 dpkg -s git
+
 sudo apt-get update
 sudo apt-get install net-tools
 dpkg -s net-tools
+
 sudo apt-get update
 sudo apt-get install nginx
 systemctl status nginx
